@@ -8,7 +8,7 @@
 
 <body>
 <div class="container">
-¿Cuantos focos hay en su casa?...
+¿Cuantos focos hay en su casa?...s
 </div>
 </body>
 </html>
