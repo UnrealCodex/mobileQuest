@@ -165,11 +165,269 @@
 			<br><br>
 		
 		
+	       		 <div class="form-group" align="left">
+        			<label for="fp15" >15.  ¿Tiene problemas dentales que no han sido resueltos por falta de dinero?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p15" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p15" data-title="1"> Si</a>	
+    				</div>
+    				<input type="hidden" name="fp15" id="fp15">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
 		
 		
 		
 		
-		
+			
+ <div class="form-group" align="left">
+        			<label for="fp16" >16.¿Si es hombre mayor de 35, le han realizado examen de próstata o valoración de Antígeno Prostático Específico?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p16" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p16" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p16" data-title="2">No aplica</a>
+    				</div>
+    				<input type="hidden" name="fp16" id="fp16">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+			
+			
+			
+		<div align="left" >
+			<label>17.¿Hace cuanto?</label>	<br>
+			<input type="text" name="p17" value=""  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+			
+ <div class="form-group" align="left">
+        			<label for="fp18" >18.  ¿Si es mujer mayor de 35, le han realizado examen de cáncer de mama?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p18" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p18" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p18" data-title="2">No aplica</a>
+    				</div>
+    				<input type="hidden" name="fp18" id="fp18">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+			
+			
+			
+ <div class="form-group" align="left">
+        			<label for="fp19" >19. ¿Se autoexplora las mamas cada mes?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p19" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p19" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p19" data-title="2">No aplica</a>
+    				</div>
+    				<input type="hidden" name="fp19" id="fp19">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>
+			
+
+ <div class="form-group" align="left">
+        			<label for="fp20" >20. ¿Se ha realizado mastografía anual?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p20" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p20" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p20" data-title="2">No aplica</a>
+    				</div>
+    				<input type="hidden" name="fp20" id="fp20">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>
+						
+ <div class="form-group" align="left">
+        			<label for="fp21" >21.¿Se ha realizado Papanicolaou anual?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="2">No aplica</a>
+    				</div>
+    				<input type="hidden" name="fp21" id="fp21">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+			
+		<div align="left" >
+			<label>22.  Número de gestas</label>	<br>
+			<input type="text" name="p22" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>				
+			
+			
+		<div align="left" >
+			<label>23.  Número de abortos</label>	<br>
+			<input type="text" name="p23" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>				
+						
+			
+			<div align="left" >
+			<label>24.  Número de partos</label>	<br>
+			<input type="text" name="p24" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>		
+			
+			
+				<div align="left" >
+			<label>25.  Número de cesáreas</label>	<br>
+			<input type="text" name="p25" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+
+			
+ <div class="form-group" align="left">
+        			<label for="fp26" >26.  ¿Consume algún medicamento de forma constante?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p26" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p26" data-title="1"> Si</a>
+
+    				</div>
+    				<input type="hidden" name="fp26" id="fp26">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+			
+			
+					<div align="left" >
+			<label>27.  ¿Cuál medicamento?</label>	<br>
+			<input type="text" name="p27" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>	
+			
+			
+ <div class="form-group" align="left">
+        			<label for="fp28" >28.  ¿Es frecuente que interrumpa los medicamentos prescritos para enfermedades crónicas?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p28" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p28" data-title="1"> Si</a>
+
+    				</div>
+    				<input type="hidden" name="fp28" id="fp28">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+			
+ <div class="form-group" align="left">
+        			<label for="fp29" >29.  ¿Cuenta con cartilla de vacunación?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p29" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p29" data-title="1"> Si</a>
+
+    				</div>
+    				<input type="hidden" name="fp29" id="fp29">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+			
+	 <div class="form-group" align="left">
+        			<label for="fp30" >30.  ¿todos los integrantes de la familia cuentan con ella?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p30" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p30" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p30" data-title="2"> No se</a>
+
+    				</div>
+    				<input type="hidden" name="fp30" id="fp30">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
+			
+			
+		 <div class="form-group" align="left">
+        			<label for="fp31" >31.  ¿Les falta alguna vacuna?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p31" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p31" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p31" data-title="2"> No se</a>
+
+    				</div>
+    				<input type="hidden" name="fp31" id="fp31">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+			
+					<div align="left" >
+			<label>32.  ¿Cuál vacuna les falta?</label>	<br>
+			<input type="text" name="p32" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+			 <div class="form-group" align="left">
+        			<label for="fp33" >33.  ¿Se le ha realizado alguna cirugía?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p33" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p33" data-title="1"> Si</a>
+						
+
+    				</div>
+    				<input type="hidden" name="fp33" id="fp33">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
+			
+			
+					<div align="left" >
+			<label>34.  Número de veces y motivo de la cirugía</label>	<br>Veces:
+			<input type="text" name="p34" value="0"  style="height:40px;font-size:14pt;width: 100%">
+						<br>Motivo:
+						<input type="text" name="p34a" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		
 		
 		
