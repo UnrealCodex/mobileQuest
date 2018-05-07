@@ -7,7 +7,7 @@
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
+<link href="css/css_checkbox.css" rel="stylesheet" id="bootstrap-css">
 	<style>
 		html,
  body {
@@ -940,7 +940,27 @@
 			
 			
 			
-			
+ <div class="funkyradio">
+        <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">Second Option primary</label>
+        </div>
+	 
+	         <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox2" id="checkbox2" />
+            <label for="checkbox2">Second Option primary</label>
+        </div>
+	 
+	         <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox3" id="checkbox3" />
+            <label for="checkbox3">Second Option primary</label>
+        </div>
+	 
+	 
+       
+        </div>
+    </div>
+
 			
 			
 			
