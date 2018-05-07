@@ -419,9 +419,508 @@
 			
 			
 			
+		 <div class="form-group" align="left">
+        			<label for="fp35" >35.  ¿Ha tenido algún accidente?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p35" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p35" data-title="1"> Si</a>
+						
+
+    				</div>
+    				<input type="hidden" name="fp35" id="fp35">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
 			
 			
 			
+			
+						<div align="left" >
+			<label>36.  Número de veces y motivo del accidente</label>	<br>Veces:
+			<input type="text" name="p36" value="0"  style="height:40px;font-size:14pt;width: 100%">
+						<br>Motivo:
+						<input type="text" name="p36a" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>		
+			
+			
+			
+			
+			 <div class="form-group" align="left">
+        			<label for="fp37" >37.  ¿Ha estado internado en un hospital?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p37" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p37" data-title="1"> Si</a>
+						
+
+    				</div>
+    				<input type="hidden" name="fp37" id="fp37">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
+			
+			
+			
+							<div align="left" >
+			<label>38.  Número de veces y motivo de internación</label>	<br>Veces:
+			<input type="text" name="p38" value="0"  style="height:40px;font-size:14pt;width: 100%">
+						<br>Motivo:
+						<input type="text" name="p38a" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>
+			
+			
+			
+			
+			
+			 <div class="form-group" align="left">
+        			<label for="fp39" >39.  ¿Lleva una vida sexualmente activa?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+							<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="1"> Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="2">Prefiero no responder </a></td></tr>
+                      <tr><td>  <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="3"> No Aplica</a></td></tr>
+    				
+</table>
+    				</div>
+    				<input type="hidden" name="fp39" id="fp39">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+			
+			
+			
+			
+ <div class="form-group" align="left">
+        			<label for="fp40" >40. ¿Utiliza anticonceptivos? ¿Cual?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+								<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p40" data-title="0">Ninguno </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p40" data-title="1"> Barrera</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p40" data-title="2">Permanente </a></td></tr>
+                      <tr><td>  <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p40" data-title="3">Hormonal</a></td></tr>
+							 <tr><td>  <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p40" data-title="4">No Aplica</a></td></tr>
+							
+							
+							
+							
+</table>
+    				</div>
+    				<input type="hidden" name="fp40" id="fp40">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+						
+			
+			
+<div class="form-group" align="left">
+        			<label for="fp41" >41.  ¿Está usted embarazada actualmente?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="2">No Aplica </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="3">No se</a></td></tr>
+					    </table>
+    				</div>
+    				<input type="hidden" name="fp41" id="fp41">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+			
+
+					<div class="form-group" align="left">
+        			<label for="fp42" >42. Si usted está embarazada o lo ha estado, ¿Ha acudido regularmente al control prenatal?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p42" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p42" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p42" data-title="2">No Aplica </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp42" id="fp42">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>		
+			
+			
+			
+					<div class="form-group" align="left">
+        			<label for="fp43" >43. ¿Usted tiene conocimiento si existe un compromiso claro en la colonia para dar solución a sus problemas de salud?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p43" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p43" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p43" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp43" id="fp43">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>				
+			
+			
+			
+					<div class="form-group" align="left">
+        			<label for="fp44" >44. ¿Cuentan con una comisión sectorial que promueva los determinantes sociales de salud? (alguien en la colonia trata de resolver los problemas de salud como pavimento, drenaje, agua potable, etc.)</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p44" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p44" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p44" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp44" id="fp44">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+			
+			
+			
+					<div class="form-group" align="left">
+        			<label for="fp45" >45. En su colonia: ¿alguien externo a la familia le ha cuestionado sobre su condición de Salud?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p45" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p45" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p45" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp45" id="fp45">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+						
+			
+			
+					<div class="form-group" align="left">
+        			<label for="fp46" >46. ¿Sabe usted si existen en su colonia organismos de gobierno o privados que atienden y promueven su acceso a los servicios salud?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p46" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p46" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p46" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp46" id="fp46">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+						
+			
+			
+					<div class="form-group" align="left">
+        			<label for="fp47" >47.¿Usted estaría dispuesto a que se le realizará un expediente de salud?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p47" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p47" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p47" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp47" id="fp47">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+						
+			
+					<div class="form-group" align="left">
+        			<label for="fp48" >48. ¿Usted estaría dispuesto a que se le revisará frecuentemente su estado de salud?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p48" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p48" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p48" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp48" id="fp48">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+			
+					<div class="form-group" align="left">
+        			<label for="fp49" >49. ¿Estaría usted dispuesto a adquirir un compromiso de asistencia a Casa Samuel o a un Centro de Salud para mejorar sus condiciones de vida?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p49" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p49" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p49" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp49" id="fp49">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+												
+			
+					<div class="form-group" align="left">
+        			<label for="fp50" >50. ¿Estaría usted dispuesto a participar en la elaboración de proyectos de salud así como su participación en la solución de problemas de salud?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p50" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p50" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p50" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp50" id="fp50">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+												
+					<div class="form-group" align="left">
+        			<label for="fp51" >51.  ¿Tiene usted conocimiento si existen líderes de salud que tomen decisiones para las mejoras en la atención y servicios en su colonia?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p51" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p51" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p51" data-title="2">No se </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp51" id="fp51">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+									
+			
+			
+			
+		<strong>6. Miembros de la familia 
+         Información de los integrantes de la familia 
+</strong>	
+			
+			<div align="left" >
+			<label>52.  Nombre</label>	<br>
+			<input type="text" name="p52" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>
+						
+			<div align="left" >
+			<label>53.  Edad</label>	<br>
+			<input type="text" name="p53" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+			<div align="left" >
+			<label>54.  ¿Sabe Leer?</label>	<br>
+			<input type="text" name="p54" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+			<div align="left" >
+			<label>55.  ¿Sabe Escribir?</label>	<br>
+			<input type="text" name="p54" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+			
+
+					<div class="form-group" align="left">
+        			<label for="fp56" >56. Escolaridad</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="0">Ninguno</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="1">Primaria</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="2">Secundaria</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="3">Prepa o Técnica</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="4">Profesional</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="5">Maestría </a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="6">Doctorado </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp56" id="fp56">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+										
+			
+					<div class="form-group" align="left">
+        			<label for="fp57" >57. ¿Fuma?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p57" data-title="0">No</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p57" data-title="1">Si</a></td></tr>
+					
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp57" id="fp57">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+									
+			<div align="left" >
+			<label>58. Cantidad de cigarrillos por día</label>	<br>
+			<input type="text" name="p58" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+						
+					<div class="form-group" align="left">
+        			<label for="fp59" >59. ¿Consume alcohol?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p59" data-title="0">No</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p59" data-title="1">Si</a></td></tr>
+					
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp59" id="fp59">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+										
+			<div align="left" >
+			<label>60. Número de copas por semana</label>	<br>
+			<input type="text" name="p60" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>			
+							
+			
+						
+					<div class="form-group" align="left">
+        			<label for="fp61" >61. Habla algún dialecto</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p61" data-title="0">No</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p61" data-title="1">Si</a></td></tr>
+					
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp61" id="fp61">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>
+										
+					<div class="form-group" align="left">
+        			<label for="fp62" >62. En caso de “Sí” Especificar cuál.</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="0">Ninguno</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="1">Náhuatl</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="2">Huasteco</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="3">Ostomí</a></td></tr>	
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="4">Zappoteco</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="5">Maya</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p62" data-title="6">Otro</a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp62" id="fp62">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>			
+			
+			
+			<div align="left" >
+			<label>63. ¿Cuál es su peso?</label>	<br>
+			<input type="text" name="p63" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>				
+			
+			<div align="left" >
+			<label>64. ¿Cuál es su estatura?</label>	<br>
+			<input type="text" name="p64" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			</div>
+			<br><br>				
+						
+			
+			<div align="left" >
+			<label>65. Padecimiento actual:</label>	<br>
+			<table>
+				<tr><td><input type="checkbox" value="0" name="op65_0">Ninguno</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_1">Diabetes   </td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_2">Hipertensión Arterial</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_3">Cáncer  </td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_4">Enfermedades Renales</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_5">Enfermedades Neurológicas</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_6">Enfermedades Oftalmológicas</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_7">Enfermedades Digestivas</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_8">Enfermedades Dermatológicas</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_9">Enfermedades En vías Urinarias</td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_10">Discapacidad  </td></tr>
+				<tr><td><input type="checkbox" value="0" name="op65_11">Otras <br><input type="text" name="p65" value="0"  style="height:40px;font-size:14pt;width: 100%"></td></tr>
+				
+				</table>
+				
+				
+				
+			</div>
+			<br><br>				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
 			
 			
 			
