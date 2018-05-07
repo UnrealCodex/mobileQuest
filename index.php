@@ -166,7 +166,7 @@
 		
 		
 	       		 <div class="form-group" align="left">
-        			<label for="fp15" >15.  ¿Tiene problemas dentales que no han sido resueltos por falta de dinero?</label>
+        			<label for="fp15" >15.  ¿Tiene caries?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
@@ -903,6 +903,60 @@
 				
 			</div>
 			<br><br>				
+			
+			
+			
+		<strong>7. Determinantes Intermedios </strong>	
+			
+			
+			
+						<div class="form-group" align="left">
+        			<label for="fp86" >86. Ocupación.</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="0">Ninguno</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="1">Asalariado</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="2">no Asalariado</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="3">Trabajo no remunerado</a></td></tr>	
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="4">Estudiante</a></td></tr>
+						
+                        </table>
+    				</div>
+    				<input type="hidden" name="fp86" id="fp86">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>			
+					
+			
+			
+			
+			
+			
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			
