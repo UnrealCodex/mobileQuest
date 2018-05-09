@@ -25,7 +25,7 @@
 
 <body>
 	
-
+<form action="pregs_pro.php" method="post">
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container" align="center">
@@ -883,21 +883,57 @@
 			
 			<div align="left" >
 			<label>65. Padecimiento actual:</label>	<br>
-			<table>
-				<tr><td><input type="checkbox" value="0" name="op65_0">Ninguno</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_1">Diabetes   </td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_2">Hipertensión Arterial</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_3">Cáncer  </td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_4">Enfermedades Renales</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_5">Enfermedades Neurológicas</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_6">Enfermedades Oftalmológicas</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_7">Enfermedades Digestivas</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_8">Enfermedades Dermatológicas</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_9">Enfermedades En vías Urinarias</td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_10">Discapacidad  </td></tr>
-				<tr><td><input type="checkbox" value="0" name="op65_11">Otras <br><input type="text" name="p65" value="0"  style="height:40px;font-size:14pt;width: 100%"></td></tr>
-				
-				</table>
+			 <div class="funkyradio">
+        <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_0" />
+            <label for="ch_op65_0">Ninguno</label>
+        </div>
+	 
+	         <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_1" />
+            <label for="ch_op65_1">Diabetes</label>
+        </div>
+	 
+	         <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_2" />
+            <label for="ch_op65_2">Hipertensión Arterial</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_3" />
+            <label for="ch_op65_3">Cáncer</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_4" />
+            <label for="ch_op65_4">Enfermedades Renales</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_5" />
+            <label for="ch_op65_5">Enfermedades Neurológicas</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_6" />
+            <label for="ch_op65_6">Enfermedades Oftalmológicas</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_7" />
+            <label for="ch_op65_7">Enfermedades Digestivas</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_8" />
+            <label for="ch_op65_8">Enfermedades Dermatológicas</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_9" />
+            <label for="ch_op65_9">Enfermedades En vías Urinarias</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_10" />
+            <label for="ch_op65_10">Discapacidad</label>
+        </div>
+	     <div class="funkyradio-primary">
+            <input type="checkbox" name="checkbox" id="ch_op65_11" />
+            <label for="ch_op65_11">Otras</label>
+        </div>
 				
 				
 				
@@ -940,21 +976,7 @@
 			
 			
 			
- <div class="funkyradio">
-        <div class="funkyradio-primary">
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <label for="checkbox">Second Option primary</label>
-        </div>
-	 
-	         <div class="funkyradio-primary">
-            <input type="checkbox" name="checkbox2" id="checkbox2" />
-            <label for="checkbox2">Second Option primary</label>
-        </div>
-	 
-	         <div class="funkyradio-primary">
-            <input type="checkbox" name="checkbox3" id="checkbox3" />
-            <label for="checkbox3">Second Option primary</label>
-        </div>
+
 	 
 	 
        
@@ -1021,5 +1043,6 @@
     $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
 })
 	</script>
+	</form>
 </body>
 </html>
