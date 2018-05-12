@@ -1,8 +1,8 @@
 <?php
 /////////////////////////
-$database   =  "spae";
-$username   =  "spae_usr";
-$password   =  "789poiQWE";
+$database   =  "db_encuesta";
+$username   =  "root";
+$password   =  "";
 /////////////////////////
 
 $link  = mysqli_connect('127.0.0.1', $username, $password,$database);

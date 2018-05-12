@@ -5,7 +5,7 @@ require_once  'conexion.php'; //conexion a la BD
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<title>Proceso de Registro</title>
 </head>
 
 <body>
@@ -16,13 +16,37 @@ require_once  'conexion.php'; //conexion a la BD
 	
 	
 	<?php
+//	$reg_by = $_REQUEST['reg_by'];
+//	$page_stat = $_REQUEST['page_stat'];	
 	
-	mysqli_select_db($link,"spae"); //mysql_select_db("agro_db",$conexion) or die("Problemas en la seleccion de la base de datos");
+	$reg_by = "Caox";
+	$page_stat = "1_5";	
+	$p1 = $_POST['p1'];
+	$p2= $_POST['p2'];
+	$p3 = $_POST['p3'];
+	$p4 = $_POST['p4'];
+	$p5 = $_POST['p5'];
+	$p5_1 = $_POST['p5_1'];
+	$p6 = $_POST['p6'];
+	$p7 = $_POST['p7'];
+	$p8 = $_POST['p8'];
+	$p9 = $_POST['p10'];
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	mysqli_select_db($link,"db_quest"); //mysql_select_db("agro_db",$conexion) or die("Problemas en la seleccion de la base de datos");
 
 //Inserccion de Datos del Formulario a la BD//
 
-mysqli_query($link , "insert into admin (
+mysqli_query($link , "insert into quest (
 reg_by,
+page_stat,
 p1,
 p2,
 p3,
@@ -32,8 +56,10 @@ p5_1,
 p6,
 p7,
 p8,
-p9,
+p9
 ) values (
+'".$reg_by."',
+'".$page_stat."',
 '".$p1."',
 '".$p2."',
 '".$p3."',
@@ -48,7 +74,7 @@ p9,
 
 	
 mysqli_close($link);
-$last_id = $nom_adm;
+
 	
 	
 	
