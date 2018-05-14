@@ -471,10 +471,10 @@ mysqli_close($link);
 	
 			
 	<script type="text/javascript">
+		function begin (){
 $(document).ready(function()
                   {
-                  $("#dhp0").on('click',function()
-        {
+                 
             if($("#hp0").val() == "F")
         {
 			
@@ -497,7 +497,8 @@ $(document).ready(function()
             $("#p23").hide();
 			$("#p24").hide();
 			$("#p25").hide();
-});
+};
+		begin();
 </script>		
 	
 	
