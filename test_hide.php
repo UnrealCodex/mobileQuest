@@ -111,9 +111,6 @@
 
 
 <script type="text/javascript">
-
-
-
 $(document).ready(function()
                   {
                   $("#dhp10").on('click',function()
@@ -129,9 +126,6 @@ $(document).ready(function()
             });
             $("#test").hide();
 });
-
-	
- 
 </script>
 	
 
