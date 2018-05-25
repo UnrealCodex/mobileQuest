@@ -26,7 +26,7 @@
 <body>
 	
 <form action="p2.php" method="post">
-<!------ Include the above in your HEAD tag ---------->
+<!------ Include the assbove in your HEAD tag ---------->
 
 <div class="container" align="center">
     <div class="row">
