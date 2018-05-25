@@ -121,9 +121,10 @@ mysqli_close($link);
 <body>
 	
 <!--HOMBRE O MUJER ; GET-->	
-	<input type="hidden" name="hp0" id="hp0" value="<?php echo $_POST['hp0'];  ?>">
 	
-<form action="pregs_pro.php" method="post">
+	
+<form action="p3.php" method="post">
+	<input type="hidden" name="hp0" id="hp0" value="<?php echo $_POST['hp0'];  ?>">
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container" align="center">
@@ -135,9 +136,9 @@ mysqli_close($link);
         <br /><br />
 			
 		
-				<div id="p21" hidden>
+				<div id="hp21" >
  <div class="form-group" align="left">
-        			<label for="fp21" >21.¿Se ha realizado Papanicolaou anual?</label>
+        			<label for="p21" >21.¿Se ha realizado Papanicolaou anual?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
@@ -145,7 +146,7 @@ mysqli_close($link);
                         <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="1"> Si</a>
 						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="2">No aplica</a>
     				</div>
-    				<input type="hidden" name="fp21" id="fp21">
+    				<input type="hidden" name="p21" id="p21" value="" >
     				</div>
     				</div>
     					
@@ -153,35 +154,35 @@ mysqli_close($link);
 			
 		<div align="left" id="p22" hidden>
 			<label>22.  Número de gestas</label>	<br>
-			<input type="text" name="p22" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p22" value=""  style="height:40px;font-size:14pt;width: 100%">
 			
 			<br><br>	</div>			
 			
 			
 		<div align="left" id="p23" hidden>
 			<label>23.  Número de abortos</label>	<br>
-			<input type="text" name="p23" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p23" value=""  style="height:40px;font-size:14pt;width: 100%">
 			
 			<br><br></div>				
 						
 			
 			<div align="left" id="p24" hidden >
 			<label>24.  Número de partos</label>	<br>
-			<input type="text" name="p24" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p24" value=""  style="height:40px;font-size:14pt;width: 100%">
 			
 			<br><br></div>		
 			
 			
 				<div align="left" id="p25" hidden >
 			<label>25.  Número de cesáreas</label>	<br>
-			<input type="text" name="p25" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p25" value=""  style="height:40px;font-size:14pt;width: 100%">
 			
 			<br><br></div>			
 			
 
 			
  <div class="form-group" align="left">
-        			<label for="fp26" >26.  ¿Consume algún medicamento de forma constante?</label>
+        			<label for="p26" >26.  ¿Consume algún medicamento de forma constante?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
@@ -189,7 +190,7 @@ mysqli_close($link);
                         <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p26" data-title="1"> Si</a>
 
     				</div>
-    				<input type="hidden" name="fp26" id="fp26">
+    				<input type="hidden" name="p26" id="p26" value="">
     				</div>
     				</div>
     		</div>			
@@ -198,7 +199,7 @@ mysqli_close($link);
 			
 					<div align="left" >
 			<label>27.  ¿Cuál medicamento?</label>	<br>
-			<input type="text" name="p27" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p27" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>	
 			
@@ -212,7 +213,7 @@ mysqli_close($link);
                         <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p28" data-title="1"> Si</a>
 
     				</div>
-    				<input type="hidden" name="fp28" id="fp28">
+    				<input type="hidden" name="p28" id="p28">
     				</div>
     				</div>
     		</div>			
@@ -227,7 +228,7 @@ mysqli_close($link);
                         <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p29" data-title="1"> Si</a>
 
     				</div>
-    				<input type="hidden" name="fp29" id="fp29">
+    				<input type="hidden" name="p29" id="p29">
     				</div>
     				</div>
     		</div>			
@@ -243,7 +244,7 @@ mysqli_close($link);
 						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p30" data-title="2"> No se</a>
 
     				</div>
-    				<input type="hidden" name="fp30" id="fp30">
+    				<input type="hidden" name="p30" id="p30">
     				</div>
     				</div>
     		</div>			
@@ -260,7 +261,7 @@ mysqli_close($link);
 						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p31" data-title="2"> No se</a>
 
     				</div>
-    				<input type="hidden" name="fp31" id="fp31">
+    				<input type="hidden" name="p31" id="p31">
     				</div>
     				</div>
     		</div>			
@@ -268,7 +269,7 @@ mysqli_close($link);
 			
 					<div align="left" >
 			<label>32.  ¿Cuál vacuna les falta?</label>	<br>
-			<input type="text" name="p32" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p32" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>			
 			
@@ -282,7 +283,7 @@ mysqli_close($link);
 						
 
     				</div>
-    				<input type="hidden" name="fp33" id="fp33">
+    				<input type="hidden" name="p33" id="p33">
     				</div>
     				</div>
     		</div>			
@@ -291,9 +292,9 @@ mysqli_close($link);
 			
 					<div align="left" >
 			<label>34.  Número de veces y motivo de la cirugía</label>	<br>Veces:
-			<input type="text" name="p34" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p34" value=""  style="height:40px;font-size:14pt;width: 100%">
 						<br>Motivo:
-						<input type="text" name="p34_1" value="0"  style="height:40px;font-size:14pt;width: 100%">
+						<input type="text" name="p34_1" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>			
 			
@@ -309,7 +310,7 @@ mysqli_close($link);
 						
 
     				</div>
-    				<input type="hidden" name="fp35" id="fp35">
+    				<input type="hidden" name="p35" id="p35">
     				</div>
     				</div>
     		</div>			
@@ -320,9 +321,9 @@ mysqli_close($link);
 			
 						<div align="left" >
 			<label>36.  Número de veces y motivo del accidente</label>	<br>Veces:
-			<input type="text" name="p36" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p36" value=""  style="height:40px;font-size:14pt;width: 100%">
 						<br>Motivo:
-						<input type="text" name="p36_1" value="0"  style="height:40px;font-size:14pt;width: 100%">
+						<input type="text" name="p36_1" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>		
 			
@@ -339,7 +340,7 @@ mysqli_close($link);
 						
 
     				</div>
-    				<input type="hidden" name="fp37" id="fp37">
+    				<input type="hidden" name="p37" id="p37">
     				</div>
     				</div>
     		</div>			
@@ -349,9 +350,9 @@ mysqli_close($link);
 			
 							<div align="left" >
 			<label>38.  Número de veces y motivo de internación</label>	<br>Veces:
-			<input type="text" name="p38" value="0"  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p38" value=""  style="height:40px;font-size:14pt;width: 100%">
 						<br>Motivo:
-						<input type="text" name="p38_1" value="0"  style="height:40px;font-size:14pt;width: 100%">
+						<input type="text" name="p38_1" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>
 			
@@ -372,7 +373,7 @@ mysqli_close($link);
     				
 </table>
     				</div>
-    				<input type="hidden" name="fp39" id="fp39">
+    				<input type="hidden" name="p39" id="p39">
     				</div>
     				</div>
     		</div>			
@@ -398,14 +399,50 @@ mysqli_close($link);
 							
 </table>
     				</div>
-    				<input type="hidden" name="fp40" id="fp40">
+    				<input type="hidden" name="p40" id="p40">
     				</div>
     				</div>
     		</div>			
 			<br><br>					
 			
 			
+					
+		<div class="form-group" align="left">
+<div id="hp41" hidden>
+        			<label for="fp41" >41.  ¿Está usted embarazada actualmente?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="2">No Aplica </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p41" data-title="3">No se</a></td></tr>
+					    </table>
+    				</div>
+    				<input type="hidden" name="p41" id="p41">
+    				</div>
+    				</div>
+			</div>		</div>	
+			<br><br>				
 			
+<div id="hp42" hidden>
+					<div class="form-group" align="left">
+        			<label for="fp42" >42. Si usted está embarazada o lo ha estado, ¿Ha acudido regularmente al control prenatal?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p42" data-title="0">No </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p42" data-title="1">Si</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p42" data-title="2">No Aplica </a></td></tr>
+                        </table>
+    				</div>
+    				<input type="hidden" name="p42" id="p42">
+    				</div>
+    				</div>
+    				</div>			
+					<br><br>		
 	
 			
 			
@@ -413,7 +450,7 @@ mysqli_close($link);
 			
 
 	 
-	 
+	 </div>
        
         </div>
     </div>
@@ -478,25 +515,34 @@ $(document).ready(function()
             if($("#hp0").val() == "F")
         {
 			
-            $("#p22").show();
+            $("#hp21").show();
+			$("#p22").show();
 			$("#p23").show();
 			$("#p24").show();
 			$("#p25").show();
+			$("#hp41").show();
+			$("#hp42").show();
 			
 			
         }
         else
         {
+			$("#hp21").hide();
 			$("#p22").hide();
             $("#p23").hide();
 			$("#p24").hide();
 			$("#p25").hide();
+			$("#hp41").hide();
+			$("#hp42").hide();
         }
             });
+			$("#hp21").hide();
 			$("#p22").hide();
             $("#p23").hide();
 			$("#p24").hide();
 			$("#p25").hide();
+			$("#hp41").hide();
+			$("#hp42").hide();
 };
 		begin();
 </script>		
