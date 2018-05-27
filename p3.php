@@ -5,14 +5,9 @@ require_once  'conexion.php'; //conexion a la BD
 
 
 
-
+	$rand_fol = $_POST['rand_fol'];
 	$reg_by = "Caox";
 	$page_stat = "2_5";	
-	$p21 = $_POST['p21'];
-	$p22= $_POST['p22'];
-	$p23 = $_POST['p23'];
-	$p24 = $_POST['p24'];
-	$p25 = $_POST['p25'];	
 	$p26 = $_POST['p26'];	
 	$p27 = $_POST['p27'];
 	$p28 = $_POST['p28'];
@@ -33,12 +28,17 @@ require_once  'conexion.php'; //conexion a la BD
 	$p40 = $_POST['p40'];
 	$p41 = $_POST['p41'];
 	$p42 = $_POST['p42'];
+	$p43 = $_POST['p43'];
+	$p44 = $_POST['p44'];
+	$p45 = $_POST['p45'];
+	$p46 = $_POST['p46'];
+	$p47 = $_POST['p47'];
+	$p48 = $_POST['p48'];
+	$p49 = $_POST['p49'];
+	$p50 = $_POST['p50'];
+	$p51 = $_POST['p51'];
 
-echo $p21."=p21<br>";
-echo $p22."=p22<br>";
-echo $p23."=p23<br>";
-echo $p24."=p24<br>";
-echo $p25."=p25<br>";
+
 echo $p26."=p26<br>";
 echo $p27."=p27<br>";
 echo $p28."=p28<br>";
@@ -58,17 +58,22 @@ echo $p39."=p39<br>";
 echo $p40."=p40<br>";
 echo $p41."=p41<br>";
 echo $p42."=p42<br>";
-
+echo $p43."=p43<br>";
+echo $p44."=p44<br>";
+echo $p45."=p45<br>";
+echo $p46."=p46<br>";
+echo $p47."=p47<br>";
+echo $p48."=p48<br>";
+echo $p49."=p49<br>";
+echo $p50."=p50<br>";
+echo $p51."=p51<br>";
+echo $rand_fol;
 	
 		
 		mysqli_query($link ,"UPDATE `quest` SET 
 
 
-p21='$p21',
-p22='$p22',
-p23='$p23',
-p24='$p24',
-p25='$p25',
+page_stat='p3',
 p26='$p26',
 p27='$p27',
 p28='$p28',
@@ -88,11 +93,20 @@ p38_1='$p38_1',
 p39='$p39',
 p40='$p40',
 p41='$p41',
-p42='$p42'
+p42='$p42',
+p43='$p43',
+p44='$p44',
+p45='$p45',
+p46='$p46',
+p47='$p47',
+p48='$p48',
+p49='$p49',
+p50='$p50',
+p51='$p51'
 
 
 
-WHERE `quest`.`fol_int`=29");	
+WHERE `quest`.`rand_fol`='$rand_fol'");	
 	
 	mysqli_select_db($link,"db_quest"); //mysql_select_db("agro_db",$conexion) or die("Problemas en la seleccion de la base de datos");
 
@@ -150,309 +164,11 @@ mysqli_close($link);
 			
 			
 			
-					<div class="form-group" align="left">
-        			<label for="fp43" >43. ¿Usted tiene conocimiento si existe un compromiso claro en la colonia para dar solución a sus problemas de salud?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p43" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p43" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p43" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp43" id="fp43">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>				
-			
-			
-			
-					<div class="form-group" align="left">
-        			<label for="fp44" >44. ¿Cuentan con una comisión sectorial que promueva los determinantes sociales de salud? (alguien en la colonia trata de resolver los problemas de salud como pavimento, drenaje, agua potable, etc.)</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p44" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p44" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p44" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp44" id="fp44">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-			
-			
-			
-					<div class="form-group" align="left">
-        			<label for="fp45" >45. En su colonia: ¿alguien externo a la familia le ha cuestionado sobre su condición de Salud?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p45" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p45" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p45" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp45" id="fp45">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-						
-			
-			
-					<div class="form-group" align="left">
-        			<label for="fp46" >46. ¿Sabe usted si existen en su colonia organismos de gobierno o privados que atienden y promueven su acceso a los servicios salud?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p46" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p46" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p46" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp46" id="fp46">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-						
-			
-			
-					<div class="form-group" align="left">
-        			<label for="fp47" >47.¿Usted estaría dispuesto a que se le realizará un expediente de salud?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p47" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p47" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p47" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp47" id="fp47">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-						
-			
-					<div class="form-group" align="left">
-        			<label for="fp48" >48. ¿Usted estaría dispuesto a que se le revisará frecuentemente su estado de salud?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p48" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p48" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p48" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp48" id="fp48">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-			
-					<div class="form-group" align="left">
-        			<label for="fp49" >49. ¿Estaría usted dispuesto a adquirir un compromiso de asistencia a Casa Samuel o a un Centro de Salud para mejorar sus condiciones de vida?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p49" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p49" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p49" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp49" id="fp49">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-												
-			
-					<div class="form-group" align="left">
-        			<label for="fp50" >50. ¿Estaría usted dispuesto a participar en la elaboración de proyectos de salud así como su participación en la solución de problemas de salud?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p50" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p50" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p50" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp50" id="fp50">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-												
-					<div class="form-group" align="left">
-        			<label for="fp51" >51.  ¿Tiene usted conocimiento si existen líderes de salud que tomen decisiones para las mejoras en la atención y servicios en su colonia?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p51" data-title="0">No </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p51" data-title="1">Si</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p51" data-title="2">No se </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp51" id="fp51">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
+				
 									
 			
 			
 			
-		<strong>6. Miembros de la familia 
-         Información de los integrantes de la familia 
-</strong>	
-			
-			<div align="left" >
-			<label>52.  Nombre</label>	<br>
-			<input type="text" name="p52" value="0"  style="height:40px;font-size:14pt;width: 100%">
-			</div>
-			<br><br>
-						
-			<div align="left" >
-			<label>53.  Edad</label>	<br>
-			<input type="text" name="p53" value="0"  style="height:40px;font-size:14pt;width: 100%">
-			</div>
-			<br><br>			
-			
-			<div align="left" >
-			<label>54.  ¿Sabe Leer?</label>	<br>
-			<input type="text" name="p54" value="0"  style="height:40px;font-size:14pt;width: 100%">
-			</div>
-			<br><br>			
-			
-			<div align="left" >
-			<label>55.  ¿Sabe Escribir?</label>	<br>
-			<input type="text" name="p54" value="0"  style="height:40px;font-size:14pt;width: 100%">
-			</div>
-			<br><br>			
-			
-
-					<div class="form-group" align="left">
-        			<label for="fp56" >56. Escolaridad</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="0">Ninguno</a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="1">Primaria</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="2">Secundaria</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="3">Prepa o Técnica</a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="4">Profesional</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="5">Maestría </a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p56" data-title="6">Doctorado </a></td></tr>
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp56" id="fp56">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-										
-			
-					<div class="form-group" align="left">
-        			<label for="fp57" >57. ¿Fuma?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p57" data-title="0">No</a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p57" data-title="1">Si</a></td></tr>
-					
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp57" id="fp57">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-									
-			<div align="left" >
-			<label>58. Cantidad de cigarrillos por día</label>	<br>
-			<input type="text" name="p58" value="0"  style="height:40px;font-size:14pt;width: 100%">
-			</div>
-			<br><br>			
-						
-					<div class="form-group" align="left">
-        			<label for="fp59" >59. ¿Consume alcohol?</label>
-    				<div>
-    				<div class="input-group">
-    				<div id="radioBtn" class="btn-group">
-						<table>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p59" data-title="0">No</a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p59" data-title="1">Si</a></td></tr>
-					
-                        </table>
-    				</div>
-    				<input type="hidden" name="fp59" id="fp59">
-    				</div>
-    				</div>
-    				</div>			
-					<br><br>
-										
-			<div align="left" >
-			<label>60. Número de copas por semana</label>	<br>
-			<input type="text" name="p60" value="0"  style="height:40px;font-size:14pt;width: 100%">
-			</div>
-			<br><br>			
-			
-			
-			
-	
-			
-			
-			
-			
-
-	 
-	 
-       
-        </div>
-    </div>
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-						
-			
-			
-			
-			
-			
-			
-		
 		
 		
 		

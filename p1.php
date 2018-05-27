@@ -150,7 +150,7 @@
     					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px ;" data-toggle="p10" data-title="0">No</a>
                         <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p10" data-title="1">Si</a>	
     				</div>
-    				<input type="hidden" name="p10" id="p10">
+    				<input type="hidden" name="p10" id="p10" >
     				</div>
     				</div>
     		</div>
@@ -222,7 +222,7 @@
 		
 		<div align="left" >
 			<label>14.¿Observa pérdida de piezas dentales (número)?</label>	<br>
-			<input type="text" name="p14" value=""  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p14" style="height:40px;font-size:14pt;width: 100%" onfocus="if(this.value == '0') { this.value = ''; }" value="0">
 			</div>
 			<br><br>
 		
@@ -357,7 +357,48 @@ $(document).ready(function()
 			
 			
 	
+<div id="hp21" >
+ <div class="form-group" align="left">
+        			<label for="p21" >21.¿Se ha realizado Papanicolaou anual?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p21" data-title="2">No aplica</a>
+    				</div>
+    				<input type="hidden" name="p21" id="p21" value="" >
+    				</div>
+    				</div>
+    					
+			<br><br></div>	</div>		
 			
+		<div align="left" id="p22" hidden>
+			<label>22.  Número de gestas</label>	<br>
+			<input type="text" name="p22"   style="height:40px;font-size:14pt;width: 100%" onfocus="if(this.value == '0') { this.value = ''; }" value="0">
+			
+			<br><br>	</div>			
+			
+			
+		<div align="left" id="p23" hidden>
+			<label>23.  Número de abortos</label>	<br>
+			<input type="text" name="p23"   style="height:40px;font-size:14pt;width: 100%" onfocus="if(this.value == '0') { this.value = ''; }" value="0">
+			
+			<br><br></div>				
+						
+			
+			<div align="left" id="p24" hidden >
+			<label>24.  Número de partos</label>	<br>
+			<input type="text" name="p24"   style="height:40px;font-size:14pt;width: 100%" onfocus="if(this.value == '0') { this.value = ''; }" value="0">
+			
+			<br><br></div>		
+			
+			
+				<div align="left" id="p25" hidden >
+			<label>25.  Número de cesáreas</label>	<br>
+			<input type="text" name="p25"   style="height:40px;font-size:14pt;width: 100%" onfocus="if(this.value == '0') { this.value = ''; }" value="0">
+			
+			<br><br></div>			
 			
 			
 			
@@ -431,6 +472,11 @@ $(document).ready(function()
             $("#p18").show();
 			$("#p19").show();
 			$("#p20").show();
+			$("#hp21").show();
+			$("#p22").show();
+			$("#p23").show();
+			$("#p24").show();
+			$("#p25").show();
 			
 			
         }
@@ -440,12 +486,22 @@ $(document).ready(function()
             $("#p18").hide();
 			$("#p19").hide();
 			$("#p20").hide();
+			$("#hp21").hide();
+			$("#p22").hide();
+			$("#p23").hide();
+			$("#p24").hide();
+			$("#p25").hide();
         }
             });
 			$("#p16").hide();
             $("#p18").hide();
 			$("#p19").hide();
 			$("#p20").hide();
+			$("#hp21").hide();
+			$("#p22").hide();
+			$("#p23").hide();
+			$("#p24").hide();
+			$("#p25").hide();
 });
 </script>		
 	
