@@ -4,10 +4,16 @@ require_once  'conexion.php'; //conexion a la BD
 //	$page_stat = $_REQUEST['page_stat'];	
 	
 
-function generateRandomString($length = 6) {
+
+if (isset($_REQUEST['ret']) == 1)
+{
+	echo "Continuar";
+}
+else
+{
+	function generateRandomString($length = 6) {
     return substr(str_shuffle(str_repeat($x='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
 }
-
 $rand_fol =  generateRandomString();
 
 
@@ -112,7 +118,7 @@ rand_fol
 mysqli_close($link);
 
 	
-	
+}
 	
 	
 	?>
@@ -149,7 +155,13 @@ mysqli_close($link);
 	
 <form action="p3.php" method="post">
 	<input type="hidden" name="hp0" id="hp0" value="<?php echo $_POST['hp0'];  ?>">
-	<input type="hidden" name="rand_fol" value="<?php echo $rand_fol ;  ?>" >
+	<input type="hidden" name="rand_fol" value="<?php if (isset($_REQUEST['ret']))
+{
+	echo $_REQUEST['rand_fol'];
+}else{
+	
+	echo $rand_fol ;}  ?>" >
+	
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container" align="center">

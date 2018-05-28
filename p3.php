@@ -3,7 +3,12 @@ require_once  'conexion.php'; //conexion a la BD
 //	$reg_by = $_REQUEST['reg_by'];
 //	$page_stat = $_REQUEST['page_stat'];	
 
-
+if (isset($_REQUEST['ret']) == 1)
+{
+	echo "Continuar";
+}
+else
+{
 
 	$rand_fol = $_POST['rand_fol'];
 	$reg_by = "Caox";
@@ -116,7 +121,7 @@ mysqli_close($link);
 
 	
 	
-	
+}
 	
 	?>
 
@@ -149,6 +154,12 @@ mysqli_close($link);
 	
 <!--HOMBRE O MUJER ; GET-->	
 	<input type="hidden" name="hp0" id="hp0" value="<?php echo $_POST['hp0'];  ?>">
+	<input type="hidden" name="rand_fol" value="<?php if (isset($_REQUEST['ret']))
+{
+	echo $_REQUEST['rand_fol'];
+}else{
+	
+	echo $rand_fol ;}  ?>" >
 	
 <form action="pregs_pro.php" method="post">
 <!------ Include the above in your HEAD tag ---------->
