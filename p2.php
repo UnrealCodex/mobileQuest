@@ -11,7 +11,7 @@ if (isset($_REQUEST['ret']) == 1)
 }
 else
 {
-	function generateRandomString($length = 6) {
+	function generateRandomString($length = 7) {
     return substr(str_shuffle(str_repeat($x='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
 }
 $rand_fol =  generateRandomString();
@@ -507,7 +507,7 @@ $(document).ready(function()
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
 						<table>
-							<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="0">No </a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="0">No </a></td></tr>
                         <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="1"> Si</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="2">Prefiero no responder </a></td></tr>
                       <tr><td>  <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p39" data-title="3"> No Aplica</a></td></tr>

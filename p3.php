@@ -151,7 +151,9 @@ mysqli_close($link);
 	</head>
 
 <body>
-	
+		
+<form action="p4.php" method="post">
+<!------ Include the above in your HEAD tag ---------->
 <!--HOMBRE O MUJER ; GET-->	
 	<input type="hidden" name="hp0" id="hp0" value="<?php echo $_POST['hp0'];  ?>">
 	<input type="hidden" name="rand_fol" value="<?php if (isset($_REQUEST['ret']))
@@ -160,9 +162,7 @@ mysqli_close($link);
 }else{
 	
 	echo $rand_fol ;}  ?>" >
-	
-<form action="pregs_pro.php" method="post">
-<!------ Include the above in your HEAD tag ---------->
+
 
 <div class="container" align="center">
     <div class="row">
@@ -172,6 +172,328 @@ mysqli_close($link);
         
         <br /><br />
 	
+
+			
+<div class="form-group" align="left">
+        			<label for="fp86" >86. Ocupación</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="0">Ninguna </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="1"> Asalariado</a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="2">No Asalariado</a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="3">Trabajo no remunerado</a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p86" data-title="4">Estudiante</a>
+
+    				</div>
+    				<input type="hidden" name="p86" id="p86">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
+			
+			
+			
+			<div class="form-group" align="left">
+        			<label for="fp87" >87. ¿De donde obtiene el agua?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+						<table>
+							
+    					<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p87" data-title="1">Pozo</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p87" data-title="2"> Rio, Lago, Arroyo</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px" data-toggle="p87" data-title="3"> Pipa expendedora</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px; text-align: left;" data-toggle="p87" data-title="4"> Entubada por acarreo<br> de otra vivienda,<br> lugar público o hidrante</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p87" data-title="5"> Entubada</a></td></tr>
+</table>
+    				</div>
+    				<input type="hidden" name="p87" id="p87">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
+			
+<div class="form-group" align="left">
+        			<label for="fp88" >88. ¿Les lava las manos a sus hijos antes de comer?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p88" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p88" data-title="1"> Si</a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p88" data-title="2">Algunas Veces</a>
+
+    				</div>
+    				<input type="hidden" name="p88" id="p88">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+			
+<div class="form-group" align="left">
+        			<label for="fp89" >89. ¿Acostumbra lavar sus manos después de ir al baño?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p89" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p89" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p89" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p89" id="p89">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+<div class="form-group" align="left">
+        			<label for="fp90" >90. ¿Acostumbra lavar sus manos antes de cocinar?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p90" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p90" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p90" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p90" id="p90">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+<div class="form-group" align="left">
+        			<label for="fp91" >91. ¿Usa leña o carbón para cocinar sin chimenea como medio predominante de cocinar?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p91" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p91" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p91" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p91" id="p91">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+<div class="form-group" align="left">
+        			<label for="fp92" >92. ¿Número de habitantes en la vivienda?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="1">1-2 </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="2">2-3 </a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="3">3 o más</a>
+    				</div>
+    				<input type="hidden" name="p92" id="p92">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+	<div class="form-group" align="left">
+        			<label for="fp93" >93. ¿Número de personas que duermen por habitación?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="1">1-2 </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="2">2-3 </a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="3">3 o más</a>
+    				</div>
+    				<input type="hidden" name="p93" id="p93">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+<div class="form-group" align="left">
+        			<label for="fp94" >94. ¿El material del piso de la vivienda es de tierra?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p94" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p94" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p94" data-title="2">Otros</a>
+    				</div>
+    				<input type="hidden" name="p94" id="p94">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+			
+<div class="form-group" align="left">
+        			<label for="fp95" >95. ¿El material del techo de la vivienda es de lámina de cartón o desechos?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p95" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p95" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p95" data-title="2">Otros</a>
+    				</div>
+    				<input type="hidden" name="p95" id="p95">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+<div class="form-group" align="left">
+        			<label for="fp96" >96. ¿Las paredes de la vivienda están hechas de barro o lámina?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p96" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p96" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p96" data-title="2">Otros</a>
+    				</div>
+    				<input type="hidden" name="p96" id="p96">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>			
+	
+<div class="form-group" align="left">
+        			<label for="fp97" >97. ¿Alcanza la canasta básica alimentaria? (Leche Huevos Frijol
+Tortilla Arroz azúcar
+harina  verduras y frutas
+de temporada).
+</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p97" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p97" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p97" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p97" id="p97">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+<div class="form-group" align="left">
+        			<label for="fp98" >98. En los últimos tres meses, por falta de dinero o recursos ¿algún adulto en el hogar tuvo una alimentación basada en muy poca variación de alimentos?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p98" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p98" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p98" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p98" id="p98">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+<div class="form-group" align="left">
+        			<label for="fp99" >99. En los últimos tres meses, por falta de dinero ¿algún adulto en el hogar dejó de desayunar, comer o cenar?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p99" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p99" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p99" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p99" id="p99">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>
+			
+	<div class="form-group" align="left">
+        			<label for="fp100" >100. En los últimos tres meses, por falta de dinero ¿algún adulto en el hogar comió menos de lo que piensa debía comer?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p100" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p100" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p100" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p100" id="p100">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+			
+	<div class="form-group" align="left">
+        			<label for="fp101" >101. En los últimos tres meses, por falta de dinero ¿se quedaron sin comida en el hogar?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p101" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p101" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p101" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p101" id="p101">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>		
+			
+<div class="form-group" align="left">
+        			<label for="fp102" >102. En los últimos tres meses, por falta de dinero ¿alguna persona en el hogar sintió hambre, pero no comió?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p102" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p102" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p102" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p102" id="p102">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+			
+<div class="form-group" align="left">
+        			<label for="fp103" >103. En los últimos tres meses, por falta de dinero o recursos, ¿Alguna persona en el hogar se fue a dormir con hambre?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p103" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p103" data-title="1"> Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p103" data-title="2">Algunas Veces</a>
+    				</div>
+    				<input type="hidden" name="p103" id="p103">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+<div class="form-group" align="left">
+        			<label for="fp104" >104. ¿Su localidad se encuentra a más de tres kilómetros de un camino pavimentado?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p104" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p104" data-title="1">Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p104" data-title="2">No sé</a>
+    				</div>
+    				<input type="hidden" name="p104" id="p104">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>				
+			
+<div class="form-group" align="left">
+        			<label for="fp105" >105. ¿Su localidad tiene acceso a alcantarillado?</label>
+    				<div>
+    				<div class="input-group">
+    				<div id="radioBtn" class="btn-group">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p105" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p105" data-title="1">Si</a>
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p105" data-title="2">No sé</a>
+    				</div>
+    				<input type="hidden" name="p105" id="p105">
+    				</div>
+    				</div>
+    		</div>			
+			<br><br>					
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			

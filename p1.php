@@ -510,7 +510,11 @@ $(document).ready(function()
 	
 	
 	<div align="center">
-	<input type="submit" value="Siguiente">
+	<input type="submit" class="btn" value="Guardar y Continuar" style="font-size: 18px; color: darkred"><br>
+<br>
+<br>
+<br>
+
 	</div>
 	</form>
 </body>
