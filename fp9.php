@@ -26,7 +26,7 @@
 	</head>
 
 <body>
-	<form action="fp2_pro.php" method="post">
+	<form action="fp9_pro.php" method="post">
 	<div class="container" align="center">
     <div class="row">
 		<div class="col-lg-1 col-centered" > 
@@ -38,61 +38,61 @@
 			
 			<div align="left" >
 			<br>52. Nombre
-			<input type="text" name="p2_52" value=""  style="height:40px;font-size:14pt;width: 100%">	
+			<input type="text" name="p9_52" value=""  style="height:40px;font-size:14pt;width: 100%">	
 			<br>
 			<br>
 			</div>
 			<div align="left" >
 			<br>53. Edad
-			<input type="text" name="p2_53" value=""  style="height:40px;font-size:14pt;width: 100%">	
+			<input type="text" name="p9_53" value=""  style="height:40px;font-size:14pt;width: 100%">	
 			<br>
 			<br>
 			</div>
 			
 			<div class="form-group" align="left">
-        			<label for="fp2_54" >118.¿Dentro de su hogar tiene mascotas?</label>
+        			<label for="fp9_54" >118.¿Dentro de su hogar tiene mascotas?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-						<div id="dhp2_54">
-						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_54" data-title="0">No   </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_54" data-title="1">Si    </a>
+						<div id="dhp9_54">
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_54" data-title="0">No   </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_54" data-title="1">Si    </a>
 						
 						</div>
     				</div>
-    				<input type="hidden" name="p2_54" id="p2_54">
+    				<input type="hidden" name="p9_54" id="p9_54">
     				</div>
     				</div>
     		</div>				
 			
 			<div class="form-group" align="left">
-        			<label for="fp2_55" >55. ¿Sabe Escribir?</label>
+        			<label for="fp9_55" >55. ¿Sabe Escribir?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-						<div id="dhp2_55">
-						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_55" data-title="0">No   </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_55" data-title="1">Si    </a>
+						<div id="dhp9_55">
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_55" data-title="0">No   </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_55" data-title="1">Si    </a>
 						
 						</div>
     				</div>
-    				<input type="hidden" name="p2_55" id="p2_55">
+    				<input type="hidden" name="p9_55" id="p9_55">
     				</div>
     				</div>
     		</div>				
 	
 			<div class="form-group" align="left">
-        			<label for="fp2_56" >56. Escolaridad</label>
+        			<label for="fp9_56" >56. Escolaridad</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-						<div id="dhp2_56">
-						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_56" data-title="0">No   </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_56" data-title="1">Si    </a>
+						<div id="dhp9_56">
+						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_56" data-title="0">No   </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_56" data-title="1">Si    </a>
 						
 						</div>
     				</div>
-    				<input type="hidden" name="p2_56" id="p2_56">
+    				<input type="hidden" name="p9_56" id="p9_56">
     				</div>
     				</div>
     		</div>				
@@ -104,44 +104,44 @@
 
 			
  <div class="form-group" align="left">
-        			<label for="p2_57" >57. ¿Fuma?</label>
+        			<label for="p9_57" >57. ¿Fuma?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-						<div id="dhp2_57">
-    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_57" data-title="0">No </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_57" data-title="1"> Si</a>
+						<div id="dhp9_57">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_57" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_57" data-title="1"> Si</a>
 						</div>
     				</div>
-    				<input type="hidden" name="p2_57" id="p2_57" value="">
+    				<input type="hidden" name="p9_57" id="p9_57" value="">
     				</div>
     				</div>
     		</div>			
 					
 			
 			
-					<div align="left" id="p2_58" hidden="" >
+					<div align="left" id="p9_58" hidden="" >
 			<label>¿Cuantos cigarros al dia?</label>	<br>
-			<input type="text" name="p2_58" value=""  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p9_58" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>	
 			
 		<script type="text/javascript">
 $(document).ready(function()
                   {
-                  $("#dhp2_57").on('click',function()
+                  $("#dhp9_57").on('click',function()
         {
-            if($("#p2_57").val() == "1")
+            if($("#p9_57").val() == "1")
         {
-            $("#p2_58").show();
+            $("#p9_58").show();
         }
         else
         {
-            $("#p2_58").hide();
+            $("#p9_58").hide();
         }
             });
 			
-            $("#p2_58").hide();
+            $("#p9_58").hide();
 });
 </script>		
 			
@@ -154,44 +154,44 @@ $(document).ready(function()
 
 			
  <div class="form-group" align="left">
-        			<label for="p2_59" >59. ¿Consume alcohol?</label>
+        			<label for="p9_59" >59. ¿Consume alcohol?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-						<div id="dhp2_59">
-    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_59" data-title="0">No </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_59" data-title="1"> Si</a>
+						<div id="dhp9_59">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_59" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_59" data-title="1"> Si</a>
 						</div>
     				</div>
-    				<input type="hidden" name="p2_59" id="p2_59" value="">
+    				<input type="hidden" name="p9_59" id="p9_59" value="">
     				</div>
     				</div>
     		</div>			
 					
 			
 			
-					<div align="left" id="p2_60" hidden="" >
+					<div align="left" id="p9_60" hidden="" >
 			<label>Número de copas por semana</label>	<br>
-			<input type="text" name="p2_60" value=""  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p9_60" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>	
 			
 		<script type="text/javascript">
 $(document).ready(function()
                   {
-                  $("#dhp2_59").on('click',function()
+                  $("#dhp9_59").on('click',function()
         {
-            if($("#p2_59").val() == "1")
+            if($("#p9_59").val() == "1")
         {
-            $("#p2_60").show();
+            $("#p9_60").show();
         }
         else
         {
-            $("#p2_60").hide();
+            $("#p9_60").hide();
         }
             });
 			
-            $("#p2_60").hide();
+            $("#p9_60").hide();
 });
 </script>		
 			
@@ -203,37 +203,37 @@ $(document).ready(function()
 
 			
  <div class="form-group" align="left">
-        			<label for="p2_61" >61. Habla algún dialecto</label>
+        			<label for="p9_61" >61. Habla algún dialecto</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-						<div id="dhp2_61">
-    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_61" data-title="0">No </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_61" data-title="1"> Si</a>
+						<div id="dhp9_61">
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_61" data-title="0">No </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_61" data-title="1"> Si</a>
 						</div>
     				</div>
-    				<input type="hidden" name="p2_61" id="p2_61" value="">
+    				<input type="hidden" name="p9_61" id="p9_61" value="">
     				</div>
     				</div>
     		</div>			
 					
-			<div class="form-group" align="left" id="ep2_62" hidden>
-        			<label for="fp2_62" >87. ¿De donde obtiene el agua?</label>
+			<div class="form-group" align="left" id="ep9_62" hidden>
+        			<label for="fp9_62" >87. ¿De donde obtiene el agua?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
 						<table>
 							
-    					<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="0">Ninguno</a></td></tr>
-    					<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="1">Náhuatl</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="2">Huasteco</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="3">Ostomí</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="4">Zappoteco</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="5">Maya</a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p2_62" data-title="6">Otro</a></td></tr>
+    					<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="0">Ninguno</a></td></tr>
+    					<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="1">Náhuatl</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="2">Huasteco</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="3">Ostomí</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="4">Zappoteco</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="5">Maya</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p9_62" data-title="6">Otro</a></td></tr>
 </table>
     				</div>
-    				<input type="hidden" name="p2_62" id="p2_62">
+    				<input type="hidden" name="p9_62" id="p9_62">
     				</div>
     				</div>
     		</div>			
@@ -243,19 +243,19 @@ $(document).ready(function()
 		<script type="text/javascript">
 $(document).ready(function()
                   {
-                  $("#dhp2_61").on('click',function()
+                  $("#dhp9_61").on('click',function()
         {
-            if($("#p2_61").val() == "1")
+            if($("#p9_61").val() == "1")
         {
-            $("#ep2_62").show();
+            $("#ep9_62").show();
         }
         else
         {
-            $("#ep2_62").hide();
+            $("#ep9_62").hide();
         }
             });
 			
-            $("#ep2_62").hide();
+            $("#ep9_62").hide();
 });
 </script>		
 			
@@ -266,13 +266,13 @@ $(document).ready(function()
 			
 	<div align="left"  >
 			<label>63. ¿Cuál es su peso?</label>	<br>
-			<input type="text" name="p2_63" value=""  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p9_63" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>			
 			
 	<div align="left"  >
 			<label>64. ¿Cuál es su estatura?</label>	<br>
-			<input type="text" name="p2_64" value=""  style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p9_64" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>		
 			
@@ -283,53 +283,53 @@ $(document).ready(function()
 			<label>65. Padecimiento actual:</label>	<br>
 			 <div class="funkyradio">
         <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_0" value="0" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_0" value="0" />
             <label for="ch_op65_0">Ninguno</label>
         </div>
 	 
 	         <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_1" value="1" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_1" value="1" />
             <label for="ch_op65_1">Diabetes</label>
         </div>
 	 
 	         <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_2" value="2" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_2" value="2" />
             <label for="ch_op65_2">Hipertensión Arterial</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_3" value="3" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_3" value="3" />
             <label for="ch_op65_3">Cáncer</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_4" value="4" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_4" value="4" />
             <label for="ch_op65_4">Enfermedades Renales</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_5" value="5" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_5" value="5" />
             <label for="ch_op65_5">Enfermedades Neurológicas</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_6" value="6" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_6" value="6" />
             <label for="ch_op65_6">Enfermedades Oftalmológicas</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_7" value="7" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_7" value="7" />
             <label for="ch_op65_7">Enfermedades Digestivas</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_8" value="8" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_8" value="8" />
             <label for="ch_op65_8">Enfermedades Dermatológicas</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_9" value="9" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_9" value="9" />
             <label for="ch_op65_9">Enfermedades En vías Urinarias</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_10" value="10" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_10" value="10" />
             <label for="ch_op65_10">Discapacidad</label>
         </div>
 	     <div class="funkyradio-primary">
-            <input type="checkbox" name="p2_65[]" id="ch_op65_11" value="11" />
+            <input type="checkbox" name="p9_65[]" id="ch_op65_11" value="11" />
             <label for="ch_op65_11">Otras</label>
         </div>
 				
