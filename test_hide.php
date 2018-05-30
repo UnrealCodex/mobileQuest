@@ -25,7 +25,9 @@
 
 <body>
 	
-	
+	<?php ${'a' . 'b'} = 'hello there';
+echo $ab; // hello there
+	?>
 	
 	
 	

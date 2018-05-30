@@ -12,70 +12,22 @@ else
 
 	$rand_fol = $_REQUEST['rand_fol'];
 	$reg_by = "Caox";
-	$page_stat = "2_5";	
-	$p106 = $_POST['p106'];	
-	$p107 = $_POST['p107'];
-	$p108 = $_POST['p108'];
-	$p109 = $_POST['p109'];
-	$p110 = $_POST['p110'];
-	$p111 = $_POST['p111'];
-	$p112 = $_POST['p112'];
-	$p113 = $_POST['p113'];
-	$p114 = $_POST['p114'];	
-	$p115 = $_POST['p115'];
-	$p116 = $_POST['p116'];
-	$p117 = $_POST['p117'];
-	$p118 = $_POST['p118'];
-	$p118_1 = $_POST['p118_1'];
-	$p119 = $_POST['p119'];
-	$p119_1 = $_POST['p119_1'];
-	$p120 = $_POST['p120'];
-	$p121 = $_POST['p121'];
+	
+	$numdefam = $_REQUEST['numdefam'];	
 	
 
-
-
-echo $p106."=p106<br>";
-echo $p107."=p107<br>";
-echo $p108."=p108<br>";
-echo $p109."=p109<br>";
-echo $p110."=p110<br>";
-echo $p111."=p111<br>";
-echo $p112."=p112<br>";
-echo $p113."=p113<br>";
-echo $p114."=p114<br>";
-echo $p115."=p115<br>";
-echo $p116."=p116<br>";
-echo $p117."=p117<br>";
-echo $p118."=p118<br>";
-echo $p119."=p119<br>";
-echo $p120."=p120<br>";
-echo $p121."=p121<br>";
-
-
-echo $rand_fol;
+//echo $rand_fol;
 	
-		
+	
+	//VER CUANTOS FAMILIARES ELIGIO
+if($_REQUEST['numdefam'] =! 0) 	{	
 		mysqli_query($link ,"UPDATE `quest` SET 
 
 
-page_stat='p5',
-p106='$p106',
-p107='$p107',
-p108='$p108',
-p109='$p109',
-p110='$p110',
-p111='$p111',
-p112='$p112',
-p113='$p113',
-p114='$p114',
-p115='$p115',
-p116='$p116',
-p117='$p117',
-p118='$p118',
-p119='$p119',
-p120='$p120',
-p121='$p121'
+page_stat='fam',
+numdefam='$numdefam',
+fam_listo='$numdefam'
+
 
 
 
@@ -85,9 +37,30 @@ WHERE `quest`.`rand_fol`='$rand_fol'");
 
 //Inserccion de Datos del Formulario a la BD//
 
-mysqli_close($link);
-
+//mysqli_close($link);
+}
+else
+{
+echo "Cuestionario Completado y Almacenacon con exito ";
 	
+			mysqli_query($link ,"UPDATE `quest` SET 
+
+
+page_stat='Listo',
+numdefam='$numdefam',
+fam_listo='0'
+
+
+
+
+WHERE `quest`.`rand_fol`='$rand_fol'");	
+	
+	mysqli_select_db($link,"db_quest"); //mysql_select_db("agro_db",$conexion) or die("Problemas en la seleccion de la base de datos");
+
+//Inserccion de Datos del Formulario a la BD//
+
+//mysqli_close($link);
+}
 	
 }
 	
@@ -122,9 +95,8 @@ mysqli_close($link);
 	<div class="container" align="center">
     <div class="row">
 		<div class="col-lg-1 col-centered" > 
-		<h2>Agregar familiares</h2>
+		<h2>Llenado de faltantes de Familiares</h2>
         
-	<form action="fam.php" method="post">
 <!--HOMBRE O MUJER ; GET-->	
 	<input type="hidden" name="hp0" id="hp0" value="<?php echo $_POST['hp0'];  ?>">
 	<input type="hidden" name="rand_fol" value="<?php if (isset($_REQUEST['ret']))
@@ -137,22 +109,35 @@ mysqli_close($link);
 	
 	
 	
-	Agregar <select name="numdefam" required="required" id="numdefam">
-		<option value="0" selected="selected">0</option>
-	  <option value="1">1</option>
-	  <option value="2">2</option>
-	  <option value="3">3</option>
-	  <option value="4">4</option>
-	  <option value="5">5</option>
-	  <option value="6">6</option>
-	  <option value="7">7</option>
-	  <option value="8">8</option>
-	  <option value="9">9</option>
-	</select> informacion de familiares
-	
-	<input type="submit" value="Empezar">
-<br /><br />
+<?php
+require_once  'conexion.php';
+$query2       = sprintf("SELECT rand_fol,page_stat,numdefam,fam_listo FROM quest WHERE rand_fol='$_REQUEST[rand_fol]' AND fam_listo != 0");
+$result2      = @mysqli_query($link,$query2);
+//$rowAccount2  = @mysqli_fetch_array($result2);
 
+
+while($rowAccount2  = @mysqli_fetch_array($result2))
+{
+		echo ('<a href="fp').$rowAccount2['fam_listo'].('.php?num=').$rowAccount2['fam_listo'].('&rand_fol=').$_REQUEST['rand_fol'].('&firstTime=1" class="btn btn-primary btn-sm notActive" style="font-size: 32px">Continuar ').$rowAccount2['fam_listo'].(' Restantes </a><br><br>');
+  
+		
+		
+}
+	
+	
+	
+	
+	
+	
+	?>
+
+	
+	
+			<a href="index_.php" class="btn btn-primary btn-sm notActive" style="font-size: 15px ; color: darkred" > Regresar al Menu Principal </a>
+	
+	
+	
+	
 	
 	
 	<script type="text/javascript">
@@ -207,7 +192,7 @@ $(document).ready(function()
 	
 	
 	
-	
+
 	</form>
 		</div>
 </body>

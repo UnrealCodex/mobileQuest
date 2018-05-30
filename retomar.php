@@ -28,7 +28,7 @@ BARRA DE BUSQUEDA
 
 	<?php 
 	require_once  'conexion.php'; //conexion a la BD
-$query2       = sprintf("SELECT * FROM quest GROUP BY fol_int");
+$query2       = sprintf("SELECT * FROM quest where page_stat != 'Rdy' GROUP BY fol_int");
 $result2      = @mysqli_query($link,$query2);
 //$rowAccount2  = @mysqli_fetch_array($result2);
 
@@ -45,6 +45,7 @@ while($rowAccount2  = @mysqli_fetch_array($result2))
 }
 	
 	?>
+		<a href="index_.php" class="btn btn-primary btn-sm notActive" style="font-size: 15px ; color: darkred" > Regresar al Menu Principal </a>
 	</div>
 </body>
 </html>

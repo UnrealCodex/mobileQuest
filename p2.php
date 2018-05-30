@@ -12,7 +12,7 @@ if (isset($_REQUEST['ret']) == 1)
 else
 {
 	function generateRandomString($length = 7) {
-    return substr(str_shuffle(str_repeat($x='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
+    return substr(str_shuffle(str_repeat($x='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdx', ceil($length/strlen($x)) )),1,$length);
 }
 $rand_fol =  generateRandomString();
 
