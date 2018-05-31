@@ -254,7 +254,7 @@ tag ---------->
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="2">ISSSTE  </a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="3">SSA  </a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="4">Dispensario     </a></td></tr>
-						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="5">Consultorio popular</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="5">Seguro Popular</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="6">Consultorio privado</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p112" data-title="7">Médico tradicional</a></td></tr>
 						</table>
@@ -312,7 +312,7 @@ tag ---------->
 						<table>
 						
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p115" data-title="0">Ninguno   </a></td></tr>
-                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px" data-toggle="p115" data-title="1">Delincuencia en inseguridad</a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px" data-toggle="p115" data-title="1">Delincuencia e inseguridad</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px" data-toggle="p115" data-title="2">Drogadicción y alcoholismo</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p115" data-title="3">Iluminación    </a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p115" data-title="4">Pavimentación  </a></td></tr>

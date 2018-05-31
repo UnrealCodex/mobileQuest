@@ -18,7 +18,8 @@ $rand_fol =  generateRandomString();
 
 
 	$reg_by = "Caox";
-	$page_stat = "p2";	
+	$page_stat = "p2";
+	$p0 = $_POST['hp0'];
 	$p1 = $_POST['p1'];
 	$p2= $_POST['p2'];
 	$p3 = $_POST['p3'];
@@ -55,6 +56,7 @@ $rand_fol =  generateRandomString();
 mysqli_query($link , "insert into quest (
 reg_by,
 page_stat,
+p0,
 p1,
 p2,
 p3,
@@ -85,6 +87,7 @@ rand_fol
 ) values (
 '".$reg_by."',
 '".$page_stat."',
+'".$p0."',
 '".$p1."',
 '".$p2."',
 '".$p3."',

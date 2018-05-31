@@ -206,6 +206,7 @@ mysqli_close($link);
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px" data-toggle="p87" data-title="3"> Pipa expendedora</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 28px; text-align: left;" data-toggle="p87" data-title="4"> Entubada por acarreo<br> de otra vivienda,<br> lugar público o hidrante</a></td></tr>
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p87" data-title="5"> Entubada</a></td></tr>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p87" data-title="6"> Agua Embotellada</a></td></tr>
 </table>
     				</div>
     				<input type="hidden" name="p87" id="p87">
@@ -281,8 +282,8 @@ mysqli_close($link);
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="1">1-2 </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="2">2-3 </a>
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="1">1 </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="2">2 </a>
 						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p92" data-title="3">3 o más</a>
     				</div>
     				<input type="hidden" name="p92" id="p92">
@@ -295,8 +296,8 @@ mysqli_close($link);
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
-    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="1">1-2 </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="2">2-3 </a>
+    					<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="1">1 </a>
+                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="2">2 </a>
 						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p93" data-title="3">3 o más</a>
     				</div>
     				<input type="hidden" name="p93" id="p93">

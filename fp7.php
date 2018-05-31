@@ -50,7 +50,7 @@
 			</div>
 			
 			<div class="form-group" align="left">
-        			<label for="fp7_54" >118.¿Dentro de su hogar tiene mascotas?</label>
+        			<label for="fp7_54" >54. ¿Sabe Leer?</label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
@@ -87,8 +87,15 @@
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
 						<div id="dhp7_56">
-						<a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="0">No   </a>
-                        <a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="1">Si    </a>
+						<table>
+						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="0">Ninguno   </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="1">Primaria    </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="2">Secundaria    </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="3">Prepa o Técnica    </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="4">Profesional    </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="5">Maestría    </a></td></tr>
+                        <tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p7_56" data-title="6">Doctorado    </a></td></tr>
+							</table>
 						
 						</div>
     				</div>
@@ -265,13 +272,13 @@ $(document).ready(function()
 			
 			
 	<div align="left"  >
-			<label>63. ¿Cuál es su peso?</label>	<br>
+			<label>63. ¿Cuál es su peso en kg? ejemplo " 72.5 "</label>	<br>
 			<input type="text" name="p7_63" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>			
 			
 	<div align="left"  >
-			<label>64. ¿Cuál es su estatura?</label>	<br>
+			<label>64. ¿Cuál es su estatura en cm.?</label>	<br>
 			<input type="text" name="p7_64" value=""  style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>		

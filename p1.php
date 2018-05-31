@@ -60,9 +60,9 @@
 			</div>
 			<br><br>
 			
-			<div align="left">
+			<div align="left" hidden>
 			<label>5.Nombre:</label>	<br>
-			<input type="text" name="p5" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input type="hidden" name="p5" value="" style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>	
 			
@@ -85,14 +85,14 @@
 			<br><br>	
 			
 			<div align="left">
-			<label>8.Dia:</label>	<br>
+			<label>8.Dia: Formato (DD/MM/AA)</label>	<br>
 			<input type="text" name="p8" value="" style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>	
 			
 			<div align="left">
 			<label>9.Clase:</label>	<br>
-			<input type="text" name="p9" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input type="text" name="p9" value="Comunidad I" style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>				
 			
