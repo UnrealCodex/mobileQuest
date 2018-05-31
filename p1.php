@@ -64,7 +64,7 @@
 			<label>5.Nombre:</label>	<br>
 			<input type="hidden" name="p5" value="" style="height:40px;font-size:14pt;width: 100%">
 			</div>
-			<br><br>	
+				
 			
 			<div align="left">
 			<label>5.1.Matrícula del encuestador:</label>	<br>
@@ -85,7 +85,7 @@
 			<br><br>	
 			
 			<div align="left">
-			<label>8.Dia: Formato (DD/MM/AA)</label>	<br>
+			<label>8.Dia: Formato (DD/MM/AAAA)</label>	<br>
 			<input type="text" name="p8" value="" style="height:40px;font-size:14pt;width: 100%">
 			</div>
 			<br><br>	
