@@ -218,7 +218,7 @@ $(document).ready(function()
     		</div>			
 					
 			<div class="form-group" align="left" id="ep4_62" hidden>
-        			<label for="fp4_62" >87. ¿De donde obtiene el agua?</label>
+        			<label for="fp4_62" ></label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">

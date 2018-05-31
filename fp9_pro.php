@@ -2,10 +2,28 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
+<title>Guardado</title>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="css/css_checkbox.css" rel="stylesheet" id="bootstrap-css">
+	<style>
+		html,
+ body {
+    height: 100%;
+  }  
+	#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #ffFFFf;
+}
+	</style>
 </head>
 
 <body>
+	<div class="container" align="center">
+    <div class="row">
+		<div class="col-lg-1 col-centered" > 
 	<?php
 require_once  'conexion.php'; //conexion a la BD
 //	$reg_by = $_REQUEST['reg_by'];
@@ -44,7 +62,7 @@ $p9_65 = implode( ';' , $_POST['p9_65'] );
 		mysqli_query($link ,"UPDATE `quest` SET 
 
 
-page_stat='Rdy',
+page_stat='fam',
 fam_listo = '$numsigmen',
 p9_52='$p9_52',
 p9_53='$p9_53',
@@ -72,8 +90,11 @@ mysqli_close($link);
 
 	echo "REGISTRO GUARDADO<br>";
 	
-header('Location: fam.php?rand_fol='.$_REQUEST['rand_fol'].'&numdefam='.$numsig.'&ret=1');
+//header('Location: fam.php?rand_fol='.$_REQUEST['rand_fol'].'&numdefam='.$numsig.'&ret=1');
 	
 	?>
+	<br>
+<a href="fam.php?rand_fol=<?php echo $rand_fol; ?>&ret=1" class="btn btn-primary "  style="font-size: 32px"><img src="back-icon.png" width="32" height="32">Regresar</a><br><br>
+		</div></div></div>
 </body>
 </html>

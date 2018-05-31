@@ -27,14 +27,14 @@
 	<div class="container" align="center">
     <div class="row">
 		<div class="col-lg-1 col-centered" > 
-		<h2>Herramienta de control</h2>
+		<h2>Info</h2>
 	
 						
-		<a href="p1.php" class="btn btn-primary "  style="font-size: 32px">NUEVO</a><br><br>
+		<a href="export.php" class="btn btn-primary "  style="font-size: 32px">Exportar</a><br><br>
 		
-		<a href="retomar.php" class="btn btn-primary "  style="font-size: 32px">RETOMAR</a><br><br>
+		<a href="index.php" class="btn btn-primary "  style="font-size: 32px"><img src="back-icon.png" width="32" height="32">Regresar</a><br><br>
 		
-		<a href="info.php" class="btn btn-primary "  style="font-size: 32px">INFO</a><br><br>
+		
 
 		
 		

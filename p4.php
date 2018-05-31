@@ -36,28 +36,28 @@ else
 
 
 
-echo $p86."=p86<br>";
-echo $p87."=p87<br>";
-echo $p88."=p88<br>";
-echo $p89."=p89<br>";
-echo $p90."=p90<br>";
-echo $p91."=p91<br>";
-echo $p92."=p92<br>";
-echo $p93."=p93<br>";
-echo $p94."=p94<br>";
-echo $p95."=p95<br>";
-echo $p96."=p96<br>";
-echo $p97."=p97<br>";
-echo $p98."=p98<br>";
-echo $p99."=p99<br>";
-echo $p100."=p100<br>";
-echo $p101."=p101<br>";
-echo $p102."=p102<br>";
-echo $p103."=p103<br>";
-echo $p104."=p104<br>";
-echo $p105."=p105<br>";
+//echo $p86."=p86<br>";
+//echo $p87."=p87<br>";
+//echo $p88."=p88<br>";
+//echo $p89."=p89<br>";
+//echo $p90."=p90<br>";
+//echo $p91."=p91<br>";
+//echo $p92."=p92<br>";
+//echo $p93."=p93<br>";
+//echo $p94."=p94<br>";
+//echo $p95."=p95<br>";
+//echo $p96."=p96<br>";
+//echo $p97."=p97<br>";
+//echo $p98."=p98<br>";
+//echo $p99."=p99<br>";
+//echo $p100."=p100<br>";
+//echo $p101."=p101<br>";
+//echo $p102."=p102<br>";
+//echo $p103."=p103<br>";
+//echo $p104."=p104<br>";
+//echo $p105."=p105<br>";
 
-echo $rand_fol;
+//echo $rand_fol;
 	
 		
 		mysqli_query($link ,"UPDATE `quest` SET 

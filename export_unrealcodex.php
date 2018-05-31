@@ -1,8 +1,8 @@
 <?php
     $host="localhost";
-    $username="root";
-    $password="";
-    $dbname="db_encuesta";
+    $username="unrealc1_admcta";
+    $password="789poiQWE,.-";
+    $dbname="unrealc1_db_encuesta";
     $con = new mysqli($host, $username, $password,$dbname); 
 
         $sql_data="select * from quest";

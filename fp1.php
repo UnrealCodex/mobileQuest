@@ -218,7 +218,7 @@ $(document).ready(function()
     		</div>			
 					
 			<div class="form-group" align="left" id="ep1_62" hidden>
-        			<label for="fp1_62" >87. ¿De donde obtiene el agua?</label>
+        			<label for="fp1_62" ></label>
     				<div>
     				<div class="input-group">
     				<div id="radioBtn" class="btn-group">
@@ -233,7 +233,7 @@ $(document).ready(function()
 						<tr><td><a class="btn btn-primary btn-sm notActive" style="font-size: 32px" data-toggle="p1_62" data-title="6">Otro</a></td></tr>
 </table>
     				</div>
-    				<input type="hidden" name="p1_62" id="p1_62">
+    				<input type="hidden" name="p1_62" id="p1_62" value="0">
     				</div>
     				</div>
     		</div>			
@@ -399,7 +399,10 @@ $(document).ready(function()
 	
 	
 	
-<input type="submit" value="Guardar">
+<input type="submit" value="Guardar"><br>
+<br>
+<br>
+
 		</div>
 			
 			</form>

@@ -44,36 +44,36 @@ else
 	$p51 = $_POST['p51'];
 
 
-echo $p26."=p26<br>";
-echo $p27."=p27<br>";
-echo $p28."=p28<br>";
-echo $p29."=p29<br>";
-echo $p30."=p30<br>";
-echo $p31."=p31<br>";
-echo $p32."=p32<br>";
-echo $p33."=p33<br>";
-echo $p34."=p34<br>";
-echo $p34_1."=p34_1<br>";
-echo $p35."=p35<br>";
-echo $p36."=p36<br>";
-echo $p37."=p37<br>";
-echo $p38."=p38<br>";
-echo $p38_1."=p38_1<br>";
-echo $p39."=p39<br>";
-echo $p40."=p40<br>";
-echo $p41."=p41<br>";
-echo $p42."=p42<br>";
-echo $p43."=p43<br>";
-echo $p44."=p44<br>";
-echo $p45."=p45<br>";
-echo $p46."=p46<br>";
-echo $p47."=p47<br>";
-echo $p48."=p48<br>";
-echo $p49."=p49<br>";
-echo $p50."=p50<br>";
-echo $p51."=p51<br>";
-echo $rand_fol;
-	
+//echo $p26."=p26<br>";
+//echo $p27."=p27<br>";
+//echo $p28."=p28<br>";
+//echo $p29."=p29<br>";
+//echo $p30."=p30<br>";
+//echo $p31."=p31<br>";
+//echo $p32."=p32<br>";
+//echo $p33."=p33<br>";
+//echo $p34."=p34<br>";
+//echo $p34_1."=p34_1<br>";
+//echo $p35."=p35<br>";
+//echo $p36."=p36<br>";
+//echo $p37."=p37<br>";
+//echo $p38."=p38<br>";
+//echo $p38_1."=p38_1<br>";
+//echo $p39."=p39<br>";
+//echo $p40."=p40<br>";
+//echo $p41."=p41<br>";
+//echo $p42."=p42<br>";
+//echo $p43."=p43<br>";
+//echo $p44."=p44<br>";
+//echo $p45."=p45<br>";
+//echo $p46."=p46<br>";
+//echo $p47."=p47<br>";
+//echo $p48."=p48<br>";
+//echo $p49."=p49<br>";
+//echo $p50."=p50<br>";
+//echo $p51."=p51<br>";
+//echo $rand_fol;
+//	
 		
 		mysqli_query($link ,"UPDATE `quest` SET 
 

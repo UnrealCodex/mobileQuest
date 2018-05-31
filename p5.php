@@ -35,25 +35,25 @@ else
 
 
 
-echo $p106."=p106<br>";
-echo $p107."=p107<br>";
-echo $p108."=p108<br>";
-echo $p109."=p109<br>";
-echo $p110."=p110<br>";
-echo $p111."=p111<br>";
-echo $p112."=p112<br>";
-echo $p113."=p113<br>";
-echo $p114."=p114<br>";
-echo $p115."=p115<br>";
-echo $p116."=p116<br>";
-echo $p117."=p117<br>";
-echo $p118."=p118<br>";
-echo $p119."=p119<br>";
-echo $p120."=p120<br>";
-echo $p121."=p121<br>";
+//echo $p106."=p106<br>";
+//echo $p107."=p107<br>";
+//echo $p108."=p108<br>";
+//echo $p109."=p109<br>";
+//echo $p110."=p110<br>";
+//echo $p111."=p111<br>";
+//echo $p112."=p112<br>";
+//echo $p113."=p113<br>";
+//echo $p114."=p114<br>";
+//echo $p115."=p115<br>";
+//echo $p116."=p116<br>";
+//echo $p117."=p117<br>";
+//echo $p118."=p118<br>";
+//echo $p119."=p119<br>";
+//echo $p120."=p120<br>";
+//echo $p121."=p121<br>";
 
 
-echo $rand_fol;
+//echo $rand_fol;
 	
 		
 		mysqli_query($link ,"UPDATE `quest` SET 
