@@ -27,7 +27,7 @@
 	<div class="container" align="center">
     <div class="row">
 		<div class="col-lg-1 col-centered" > 
-		<h2>Herramienta de control</h2>
+		<h2>Cuestionario DSS</h2>
 	
 						
 		<a href="p1.php" class="btn btn-primary "  style="font-size: 32px">NUEVO</a><br><br>
