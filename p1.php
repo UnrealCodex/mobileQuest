@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
 <title>Encuesta</title>
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -38,25 +38,25 @@
 			
 			<div align="left" >
 			<label>1.Folio:</label>	<br>
-			<input type="text" name="p1" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p1" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>
 			
 			<div align="left">
 			<label>2.Familia:</label>	<br>
-			<input type="text" name="p2" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p2" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>
 			
 			<div align="left">
 			<label>3.Domicilio:</label>	<br>
-			<input type="text" name="p3" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p3" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>
 
 			<div align="left">
 			<label>4.Número de manzana:</label>	<br>
-			<input type="text" name="p4" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p4" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>
 			
@@ -68,31 +68,31 @@
 			
 			<div align="left">
 			<label>5.1.Matrícula del encuestador:</label>	<br>
-			<input type="text" name="p5_1" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p5_1" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>
 
 			<div align="left">
 			<label>6.Maestro:</label>	<br>
-			<input type="text" name="p6" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p6" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>		
 			
 			<div align="left">
 			<label>7.Grupo:</label>	<br>
-			<input type="text" name="p7" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p7" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>	
 			
 			<div align="left">
 			<label>8.Dia: Formato (DD/MM/AAAA)</label>	<br>
-			<input type="text" name="p8" value="" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p8" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>
 			<br><br>	
 			
 			<div align="left">
 			<label>9.Clase:</label>	<br>
-			<input type="text" name="p9" value="Comunidad I" style="height:40px;font-size:14pt;width: 100%">
+			<input name="p9" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="Comunidad I">
 			</div>
 			<br><br>				
 			

@@ -50,7 +50,8 @@ $rand_fol =  generateRandomString();
 	
 	
 	mysqli_select_db($link,"db_quest"); //mysql_select_db("agro_db",$conexion) or die("Problemas en la seleccion de la base de datos");
-
+mysqli_query("SET NAMES 'utf8'");
+	mysqli_set_charset($link, 'utf8');
 //Inserccion de Datos del Formulario a la BD//
 
 mysqli_query($link , "insert into quest (
@@ -129,7 +130,7 @@ mysqli_close($link);
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
 <title>Encuesta</title>
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">

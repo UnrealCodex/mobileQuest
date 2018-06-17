@@ -1,4 +1,5 @@
 	<?php
+
 require_once  'conexion.php'; //conexion a la BD
 //	$reg_by = $_REQUEST['reg_by'];
 //	$page_stat = $_REQUEST['page_stat'];	
@@ -73,7 +74,9 @@ p115='$p115',
 p116='$p116',
 p117='$p117',
 p118='$p118',
+p118_1='$p118_1',
 p119='$p119',
+p119_1='$p119_1',
 p120='$p120',
 p121='$p121'
 
@@ -96,7 +99,7 @@ mysqli_close($link);
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
 <title>Encuesta</title>
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">

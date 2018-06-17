@@ -37,7 +37,7 @@
 		<a href="info.php" class="btn btn-primary "  style="font-size: 32px">INFO</a><br><br>
 
 		
-		
+		Rev 1.1
 		
 		
 	</div></div></div>
