@@ -1,11 +1,11 @@
 <?php
 /////////////////////////
-$database   =  "abecode_syscheck";
-$username   =  "abecode_admsys";
-$password   =  "789poiQWE,.-";
+$database   =  "db_encuesta";
+$username   =  "root";
+$password   =  "";
 /////////////////////////
 
-$link  = mysqli_connect('mysql3001.mochahost.com', $username, $password,$database);
+$link  = mysqli_connect('127.0.0.1', $username, $password,$database);
 //$db    = mysqli_select_db($link);
 mysqli_query("SET NAMES 'utf8'");
 if (mysqli_connect_errno())
