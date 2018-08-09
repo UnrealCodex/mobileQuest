@@ -37,6 +37,20 @@
         <br /><br />
 			
 			<div align="left" >
+			<label>Campus:</label>	<br>
+			<select name="reg_by" id="reg_by" style="height:40px;font-size:14pt;width: 100%">
+			  <option value="Campus CdMx">Campus CdMx</option>
+			  <option value="Campus Chihuahua">Campus Chihuahua</option>
+			  <option value="Campus Guadalajara">Campus Guadalajara</option>
+			  <option value="Campus Monterrey">Campus Monterrey</option>
+			</select>	
+				
+			
+			</div>
+			<br><br>
+			
+			
+			<div align="left" >
 			<label>1.Folio:</label>	<br>
 			<input name="p1" type="text" required="required" style="height:40px;font-size:14pt;width: 100%" value="">
 			</div>

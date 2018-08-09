@@ -17,7 +17,7 @@ else
 $rand_fol =  generateRandomString();
 
 
-	$reg_by = "Caox";
+	$reg_by = $_POST['reg_by'];
 	$page_stat = "p2";
 	$p0 = $_POST['hp0'];
 	$p1 = $_POST['p1'];
